@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+</head>
+<body>
+<div class="form">
+
+    <div class="tab-content">
+        <div id="signup">
+            <h1>Sign Up</h1>
+
+            <form action="/" method="post">
+
+                <div class="top-row">
+                    <div class="field-wrap">
+                        <label>
+                            Name<span class="req">*</span>
+                        </label>
+                        <input type="text" required autocomplete="off" />
+                    </div>
+
+                    <div class="field-wrap">
+                        <label>
+                            Contact Number<span class="req">*</span>
+                        </label>
+                        <input type="text" required autocomplete="off"/>
+                    </div>
+                </div>
+
+                <div class="field-wrap">
+                    <label>
+                        Email Address<span class="req">*</span>
+                    </label>
+                    <input type="email" required autocomplete="off"/>
+                </div>
+
+                <div class="field-wrap">
+                    <label>
+                        Competition Day (choose a day from Mon-Sat)<span class="req">*</span>
+                    </label>
+                    <input type="Competition Day" required autocomplete="off"/>
+                </div>
+
+                <div class="field-wrap">
+                    <label>
+                        Competition Time (choose afternoon or evening)<span class="req">*</span>
+                    </label>
+                    <input type="competition time" required autocomplete="off"/>
+                </div>
+
+                <form action="demo_form.asp" method="get">
+                    <input type="checkbox" name="Playing Guidelines" value="Yes"> I have read the Playing Guidelines<br>
+
+                </form>
+
+                <button type="submit" class="button button-block"/>SIGN UP</button>
+</body>
+</html>
